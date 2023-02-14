@@ -2,8 +2,24 @@
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
+    
+  
+}
+.todoo{
+    padding: 3%;
+    background-color: rgb(10, 152, 165);
+    color: aliceblue;
+    margin-bottom: 10%;
 }
 
+.me-auto{
+    display: flex;
+    align-items: center;
+}
+
+////.Home{
+    color: aliceblue;
+}
 .space{
     display: flex;
     justify-content: space-between;
@@ -11,18 +27,21 @@
 
 .saludo{
     align-content: center;
-    margin-left: 25%;
-    margin-top: 8%;
+    margin-left: 35%;
+    margin-top: 0%;
+   
 }
 
 .margitodo{
     margin-left: 8%;
-    margin-top: 2%;
+    margin-top: 0%;
     
 }
 
 .tituloa{
-margin-left: 15%;
+margin-left: 20%;
+color: rgb(206, 130, 245);
+border-color:aliceblue
 
 }
 
@@ -36,4 +55,31 @@ margin-left: 15%;
 
 .myphoto{
     margin-right: 20%;
+    padding: 0%;
 }
+
+.mylogo{
+    height: 50%;
+    width: 10%;
+}
+
+
+/*componente studies*/
+.titulostudies{
+  margin-left: 40%;
+ margin-bottom: 2%;
+ margin-top: 8%;
+}
+
+.paddings{
+    padding: 10%;
+}
+
+/*componente experience*/
+.tituloexperience{
+    margin-left: 40%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+    
+}
+
