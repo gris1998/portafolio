@@ -1,7 +1,9 @@
 import React from 'react'
-
+import imgexperience from '../assets/castillo.jpg'
 const Experience = () => {
   return (
+    
+
     <div className='experience'>
 
       <h1 className='tituloexperience'>MY EXPERIENCE</h1>

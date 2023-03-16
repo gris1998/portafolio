@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Studies from './components/Studies'
 import NotFound from './components/NotFound'
 import Header from './components/Header'
+import Contacto from './components/Contacto'
 const RouterApp = () => {
 
     return (
@@ -20,6 +21,7 @@ const RouterApp = () => {
                 <Route path='/Studies' element={<Studies />} />
                 <Route path='*' element={<NotFound />} />
                 <Route path='/Experience' element={<Experience />} />
+                <Route path='/Contacto' element={<Contacto />} />
             </Routes>
             <Footer/>
         </BrowserRouter>
